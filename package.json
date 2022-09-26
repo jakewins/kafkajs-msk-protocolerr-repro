@@ -1,0 +1,27 @@
+{
+  "name": "kafkajs-msk-protocolerr-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "repro": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jakewins/kafkajs-msk-protocolerr-repro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakewins/kafkajs-msk-protocolerr-repro"
+  },
+  "homepage": "https://github.com/jakewins/kafkajs-msk-protocolerr-repro",
+  "dependencies": {
+    "@jm18457/kafkajs-msk-iam-authentication-mechanism": "^2.0.2",
+    "kafkajs": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "ts-node": "^10.9.1"
+  }
+}
